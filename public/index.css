@@ -1,4 +1,104 @@
 /*Add your css code here*/
-div {
-  color: red;
+@media screen and (max-width: 480px) {
+  html, body {
+    min-width: 320px; } }
+html {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: rgb(200, 208, 213);
+}
+
+#main-container {
+  margin: 20px 100px 0 100px;
+  background-color: rgb(227, 226, 176);
+  border-radius: 15px 15px 0 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#header {
+  background-color: rgb(112, 176, 216);
+  border-radius: 15px 15px 0 0;
+padding-bottom: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 20px 30px 0 30px;
+  padding: 5px;
+}
+nav{
+
+}
+nav ul li :hover{
+  padding: 5px;
+  background-color: rgb(227, 226, 176);
+  border-radius: 15px 15px 15px 15px;
+}
+nav ul li a{
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+ #banner {
+  text-align: center;
+  position: relative;
+}
+
+#banner h1{
+  font-size: 3.5em;
+  color: rgb(200, 208, 213);
+font-weight: bold;
+margin-top: 0px;
+padding-top: 90px;
+margin-bottom: 60px;
+text-transform: uppercase;
+}
+#banner p{
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+.inner {
+  height: 600px;
+   background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/2418950/560187451/stock-photo-truck-transporting-goods-packed-in-boxes-from-warehouse-560187451.jpg");
+   background-size: cover;
+}
+
+#down-container .clients {
+  width: 100%;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 25px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    font-weight: bold;
+
+}
+
+#down-container .clients img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(112, 176, 216, 0.4);
+  padding-bottom: 30px;
+}
+footer a{
+  padding: 0 20px 10px 20px;
+  font-size: 1.7em;
+  text-decoration: none;
+  color: #fff;
 }
